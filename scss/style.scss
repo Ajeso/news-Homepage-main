@@ -1,0 +1,151 @@
+@import "config";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $Off-white;
+  font-family: $font-stack;
+}
+
+main {
+  max-width: 1440px;
+  overflow: auto;
+  padding: 0 30px;
+  margin: 0 auto;
+  line-height: 1.5;
+
+  p,
+  a,
+  h5 {
+    color: $Dark-grayish-blue;
+  }
+}
+a {
+  text-decoration: none;
+
+  &:hover {
+    color: $Soft-red;
+  }
+}
+
+.mobile-img,
+.close-svg,
+.menu-svg {
+  display: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  li {
+    padding: 15px;
+  }
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.container1 {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .content1 {
+    display: flex;
+    flex-direction: row;
+
+    h2 {
+      font-size: 52px;
+      line-height: 1.2;
+      width: 40%;
+      font-weight: 800;
+    }
+    p {
+      width: 60%;
+      text-align: left;
+    }
+  }
+
+  button {
+    background-color: $Soft-red;
+    color: $Off-white;
+    letter-spacing: 3px;
+    padding: 15px;
+    border: none;
+    margin-top: 4rem;
+
+    &:hover {
+      background-color: $Very-dark-blue;
+    }
+  }
+}
+
+.container2 {
+  background-color: $Very-dark-blue;
+  width: 80%;
+  height: fit-content;
+
+  h1 {
+    color: $Soft-orange;
+    padding-bottom: 15px;
+  }
+  h3 {
+    padding-top: 2rem;
+  }
+  hr {
+    color: $Dark-grayish-blue;
+    opacity: 50%;
+    padding: 0;
+  }
+  & > p {
+    padding-bottom: 2rem;
+  }
+  a {
+    color: $Off-white;
+    &:hover {
+      color: $Soft-orange;
+    }
+  }
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+
+  figure {
+    display: flex;
+    padding-right: 1rem;
+    img {
+      width: 100px;
+      height: auto;
+    }
+    h5 {
+      font-size: 20px;
+      opacity: 50%;
+    }
+
+    a {
+      color: $Very-dark-blue;
+      font-weight: 700;
+
+      &:hover {
+        color: $Soft-red;
+      }
+    }
+  }
+}
+
+@import "mobile";

@@ -1,0 +1,39 @@
+//FONT-FAMILY
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap");
+$font-stack: "Inter", sans-serif;
+
+//COLORS
+$Soft-orange: hsl(35, 77%, 62%);
+$Soft-red: hsl(5, 85%, 63%);
+$Off-white: hsl(36, 100%, 99%);
+$Grayish-blue: hsl(233, 8%, 79%);
+$Dark-grayish-blue: hsl(236, 13%, 42%);
+$Very-dark-blue: hsl(240, 100%, 5%);
+
+//SPACING
+$spaceamounts: (1, 2, 3, 4, 5);
+
+@each $space in $spaceamounts {
+  .m-#{$space} {
+    margin: #{$space}rem;
+  }
+  .my-#{$space} {
+    margin: #{$space}rem 0;
+  }
+  .mx-#{$space} {
+    margin: 0 #{$space}rem;
+  }
+  .p-#{$space} {
+    padding: #{$space}rem;
+  }
+  .py-#{$space} {
+    padding: #{$space}rem 0;
+  }
+  .px-#{$space} {
+    padding: 0 #{$space}rem;
+  }
+  .pb-#{$space} {
+    padding: #{$space}rem;
+  }
+}
