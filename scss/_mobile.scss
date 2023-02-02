@@ -6,20 +6,19 @@
     overflow: hidden;
     padding: 1rem;
   }
-
-  nav {
-    .close-svg,
-    .menu-svg {
-      display: flex;
-    }
-    display: flex;
-    padding: 0;
-
-    ul {
-      display: none;
-    }
+  header {
+    margin-bottom: 1rem;
+    padding-top: 1rem;
   }
 
+  nav {
+    display: none;
+    padding: 0;
+  }
+
+  }
+
+  //The first section
   .main-section {
     flex-direction: column;
   }
@@ -29,6 +28,7 @@
     }
     .mobile-img {
       display: block;
+      margin-top: 3rem;
     }
 
     .content1 {
