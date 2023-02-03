@@ -14,19 +14,34 @@
 
 <body>
   <main>
-    <nav class="py-3">
-      <img src=assets/images/logo.svg class="logo">
-      <img src=assets/images/icon-menu.svg class="menu-svg">
-      <img src=assets/images/icon-menu-close.svg class="close-svg">
+    <header>
+      <nav class=" desktop-menu py-3">
+        <img src=assets/images/logo.svg class="logo">
+        <ul>
+          <li> <a href="">Home</a> </li>
+          <li> <a href="">New</a> </li>
+          <li> <a href="">Popular</a> </li>
+          <li><a href="">Trending</a> </li>
+          <li><a href="">Categories</a> </li>
+        </ul>
+      </nav>
 
-      <ul>
-        <li> <a href="">Home</a> </li>
-        <li> <a href="">New</a> </li>
-        <li> <a href="">Popular</a> </li>
-        <li><a href="">Trending</a> </li>
-        <li><a href="">Categories</a> </li>
-      </ul>
+      <nav class="mobile-nav py-0">
+        <img src=assets/images/logo.svg class="logo">
+        <button class="hamburger ">
+          <span class="bar"></span>
+        </button>
+      </nav>
+    </header>
+    <nav class="mobile-menu">
+      <a href="">Home</a> </li>
+      <a href="">New</a> </li>
+      <a href="">Popular</a> </li>
+      <a href="">Trending</a> </li>
+      <a href="">Categories</a> </li>
+
     </nav>
+
 
     <section class="main-section">
       <div class="container1">
@@ -105,7 +120,7 @@
       Coded by <a href="#">Monicah Ajeso</a>.
     </div>
   </main>
-
+  <script src="js/main.js"></script>
 </body>
 
 </html>

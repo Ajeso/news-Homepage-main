@@ -31,10 +31,13 @@ a {
     color: $Soft-red;
   }
 }
-
-.mobile-img,
-.close-svg,
-.menu-svg {
+.mobile-nav {
+  display: none;
+}
+.mobile-menu {
+  display: none;
+}
+.mobile-img {
   display: none;
 }
 

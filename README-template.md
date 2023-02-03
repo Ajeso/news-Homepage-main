@@ -84,6 +84,7 @@ I want to master JavaScript so this challenges I'm taking they help me increase 
 
 - Website - [Monicah Ajeso](https://www.ajeso.dev)
 - Frontend Mentor - [@Ajeso](https://www.frontendmentor.io/profile/Ajeso)
+  -Twitter - [@MonicahAjeso](https://twitter.com/MonicahAjeso)
 
 ## Acknowledgments
 
